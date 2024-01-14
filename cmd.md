@@ -82,3 +82,8 @@ git checkout master
 ```text
 git checkout Уникальный_номер_коммит
 ```
+
+Удалить из статуса все удалённые файлы в директории
+```text
+git add -u
+```
