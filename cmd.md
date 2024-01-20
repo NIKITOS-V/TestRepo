@@ -109,3 +109,9 @@ git checkout Имя_ветки
 ```text
 git merge Имя_ветки
 ```
+
+Удаление ветки
+```text
+git branch -d Имя_ветки
+```
+
