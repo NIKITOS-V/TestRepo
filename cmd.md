@@ -115,3 +115,7 @@ git merge Имя_ветки
 git branch -d Имя_ветки
 ```
 
+Отмена слияния веток при конфликте
+```text
+git checkout --abort
+```
