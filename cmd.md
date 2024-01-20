@@ -58,6 +58,8 @@ git config --global user.name 'Nik'
 git config --global user.email 'example@mail.ru'
 ```
 
+## Работа с директорией
+
 Инициализация локального репозитория некоторых конфигурационных файлов Git (_init_)
 ```text
 git init
@@ -102,3 +104,14 @@ git branch Имя_ветки
 ```text
 git checkout Имя_ветки
 ```
+
+Слияние веток (Сольются ветка, в которой находится пользователь, с указанной в команде)
+```text
+git merge Имя_ветки
+```
+
+Удаление ветки
+```text
+git branch -d Имя_ветки
+```
+
