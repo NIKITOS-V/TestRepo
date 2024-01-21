@@ -119,3 +119,22 @@ git branch -d Имя_ветки
 ```text
 git checkout --abort
 ```
+
+## GitHub
+
+Создание удалённого репозитория на основе локального
+```text
+git remote add origin https://github.com/Имя_пользователя/Имя_репозитория.git
+git branch -M main
+git push -u origin main
+```
+
+Клонирование удалённого репозитория на локальный компьютер
+```text
+git clone https://github.com/Имя_пользователя/Имя_репозитория.git
+```
+
+Выгрузка состояния удалённого репозитория в локальный репозиторий
+```text
+git pull
+```
